@@ -25,14 +25,14 @@ body {
 
 
 header {
-    margin-top: 20px;
+    
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 1rem 9%;
-    background-color: transparent;
-    filter: drop-shadow(10px);
+    background-color: black;
+  
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,9 +101,14 @@ nav a.active {
     }
 }
 
+.contact{
+
+    background-color: black;
+    color: white;
+}
 
 section {
-    background-color: transparent;
+    background-color: black;
     position: relative;
     min-height: 100vh;
     padding: 10rem 5%;
@@ -117,7 +122,7 @@ section {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, #0e0e0e, #1a1a1a);
+    background-color: black;
     padding: 2rem;
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -294,7 +299,7 @@ span {
 
 .skills, .experience, .contact {
     padding: 8rem 9%;
-    background-color: #0f0f0f;
+    background-color: black;
     color: white;
     text-align: center;
 }
@@ -315,6 +320,7 @@ span {
 .skills {
     padding: 8rem 9%;
     background-color: black;
+    color: white;
     text-align: center;
 }
 
@@ -491,7 +497,7 @@ span {
   .home,
   .skills-section,
   .experience {
-    background-color: #1e1e1e; 
+    background-color: black; 
   }
   
   .experience {
@@ -539,7 +545,7 @@ span {
     }
   
     .experience h2 {
-      font-size: 1.8rem; 
+      font-size: 1.8rem;
     }
   
     .experience h3 {
@@ -549,7 +555,7 @@ span {
     .experience p {
       font-size: 0.9rem; 
     }
-  }
+}
   
 .experience-time {
     position: absolute;
