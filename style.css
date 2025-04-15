@@ -501,8 +501,55 @@ span {
     color: white;
     text-align: center;
   }
+  @media screen and (max-width: 768px) {
+    
+    .experience {
+      padding: 3rem 5%;  
+      margin-top: 1rem; 
+    }
+  
+    
+    .experience h2 {
+      font-size: 2rem; 
+    }
+  
+    .experience h3 {
+      font-size: 1.6rem; 
+    }
+  
+    .experience p {
+      font-size: 1rem;  
+    }
+  
+   
+    .experience-container {
+      display: block; 
+    }
+  
+    .experience-card {
+      margin-bottom: 2rem; 
+      padding: 1rem; 
+      box-sizing: border-box;
+    }
+  }
 
-
+  @media screen and (max-width: 480px) {
+    .experience {
+      padding: 2rem 3%;
+    }
+  
+    .experience h2 {
+      font-size: 1.8rem; 
+    }
+  
+    .experience h3 {
+      font-size: 1.4rem;
+    }
+  
+    .experience p {
+      font-size: 0.9rem; 
+    }
+  }
   
 .experience-time {
     position: absolute;
@@ -514,7 +561,7 @@ span {
 }
   
   .experience h2 {
-    font-size: 4rem;
+    font-size: 2rem;
     color: #b74b4b;
     margin-bottom: 4rem;
   }
