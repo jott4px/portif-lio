@@ -20,14 +20,12 @@ window.addEventListener("scroll", () => {
   });
 });
 
-
 document.querySelectorAll('.skill-box').forEach(box => {
   const expText = document.createElement('div');
   expText.classList.add('experience-text');
   expText.textContent = box.getAttribute('data-experience');
   box.appendChild(expText);
 
- 
   box.addEventListener('mouseenter', () => {
     if (window.innerWidth > 768) {
       box.classList.add('expanded');
@@ -43,18 +41,5 @@ document.querySelectorAll('.skill-box').forEach(box => {
     if (window.innerWidth <= 768) {
       box.classList.toggle('expanded');
     }
-  });
-});
-
-document.querySelectorAll('.skill-box').forEach(box => {
-  box.addEventListener('mouseenter', () => {
-    box.classList.add('expanded');
-  });
-  box.addEventListener('mouseleave', () => {
-    box.classList.remove('expanded');
-  });
-
-  box.addEventListener('click', () => {
-    box.classList.toggle('expanded');
   });
 });
